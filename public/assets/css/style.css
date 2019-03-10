@@ -1,0 +1,386 @@
+body {
+	font-size: 16px;
+	letter-spacing: 0.1rem;
+	background-color: #E6E6E6;
+}
+.red {
+	color: #F15A3D;
+}
+.blue {
+	color: #3064A9;
+}
+a:hover {
+	opacity: 0.6;
+}
+hr {
+	margin-top: 1.2rem;
+	margin-bottom: 1.2rem;
+	border-top: 1px solid Silver;
+}
+header {
+	width: 100%;
+	height: 68px;
+	background-color: #F15A3D;
+	padding: 20px 20px;
+}
+header .logo {
+	width: 100%;
+	line-height: 100px;
+}
+header .logo a{
+	color: #000;
+	text-decoration: none;
+}
+header .leadcopy {
+	width: 180px;
+}
+#top #main .wrapper {
+	padding: 0 40px;
+	max-width: 550px;
+	margin: 0 auto;
+}
+#top #main h1 {
+	width: 220px;
+	margin: 0 auto;
+	padding-top: 3rem;
+}
+#top #main .wrapper .head{
+	margin-bottom: 50px;
+}
+#top #main .wrapper .head p {
+	font-size: 1.2rem;
+	padding-top: 2rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+#top #main .wrapper .select {
+	position: relative;
+	font-size: 1.2rem;
+	background: #FFFFFF;
+	height: 4rem;
+	margin-bottom: 8px;
+	padding-top: 1.1rem;
+	color: #BBBBBB;
+}
+#top #main .wrapper .select img {
+	height: 1rem;
+	position: absolute;
+	right: 1.5rem;
+	top: 1.5rem;
+}
+#top #main button.btn-round {
+	font-size: 1.2rem;
+	color: #FFFFFF;
+	display: inline-block;
+	width: 100%;
+	height: 4rem;
+	border: 2px solid #F15A3D;
+	border-radius: 2rem;
+	padding: 1rem;
+	margin: 0.6rem 0;
+	background-color: #F15A3D;
+	text-align: center;
+	cursor: pointer;
+}
+#top #main button.btn-round:hover {
+	text-decoration: none;
+	background: #FFFFFF;
+	color: #F15A3D;
+	opacity: 1;
+}
+footer {
+	font-size: 0.6rem;
+	text-align: center;
+}
+/*page-1=検索結果ページ*/
+
+#page-1 #main .wrapper {
+	padding: 20px;
+}
+#main .wrapper p.bread-crumb {
+	font-size: 0.75rem;
+}
+#page-1 #main .wrapper p.result {
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 1rem 0;
+}
+#page-1 #main .wrapper section {
+	border-bottom: 1px #000000 solid;
+	padding-bottom: 2rem;
+	margin-bottom: 2rem;
+}
+#page-1 #main .wrapper section p.name a {
+	font-size: 1.5rem;
+	color: #F15A3D;
+	text-decoration: underline;
+}
+#page-1 #main .wrapper section p.address {
+	font-size: 0.75rem;
+}
+#page-1 #main .wrapper section p.tel a {
+	color: #F15A3D;
+	text-decoration: underline;
+}
+#page-1 #main .wrapper section .number .men, #page-1 #main .wrapper section .number .women, #page-2 #main .wrapper .number .men, #page-2 #main .wrapper .number .women {
+	width: 50%;
+	padding: 0 2px;
+	margin: 0;
+	position: relative;
+}
+#page-1 #main .wrapper section .number .men p, #page-1 #main .wrapper section .number .women p, #page-2 #main .wrapper .number .men p, #page-2 #main .wrapper .number .women p {
+	font-family: 'Bree Serif', serif;
+	font-size: 2rem;
+	display: inline-block;
+	width: 100%;
+	height: 4rem;
+	border-radius: 2rem;
+	padding-top: 0.3rem;
+	padding-right: 12px;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+#page-1 #main .wrapper section .number p small, #page-2 #main .wrapper .number p small {
+	font-size: 40%;
+}
+#page-1 #main .wrapper section .number .men p, #page-2 #main .wrapper .number .men p {
+	color: #3064A9;
+}
+#page-1 #main .wrapper section .number .women p, #page-2 #main .wrapper .number .women p {
+	color: #F15A3D;
+}
+#page-1 #main .wrapper section .number .men p img, #page-1 #main .wrapper section .number .women p img, #page-2 #main .wrapper .number .men p img, #page-2 #main .wrapper .number .women p img {
+	float: left;
+	margin-top: 14px;
+	margin-left: 24px;
+}
+/*page-2=お店詳細ページ*/
+
+#page-2 #main .wrapper {
+	padding: 20px;
+}
+#page-2 #main .wrapper p.name {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	text-align: center;
+}
+#page-2 #main .wrapper dt {
+	font-size: 0.75rem;
+}
+#page-2 #main .wrapper dl {
+	text-align: center;
+}
+#page-2 #main .wrapper dl a {
+	color: #F15A3D;
+	text-decoration: underline;
+}
+#page-2 #main .wrapper p.tel a {
+	color: #F15A3D;
+	text-decoration: underline;
+}
+#page-2 #main p.googlemap a {
+	font-size: 0.75rem;
+	color: #FFFFFF;
+	display: inline-block;
+	width: 200px;
+	height: 2rem;
+	border: 1px solid #000000;
+	border-radius: 1.5rem;
+	padding-top: 0.4rem;
+	background-color: #000000;
+	text-align: center;
+	text-decoration: none;
+}
+#page-2 #main p.googlemap a:hover {
+	color: #000000;
+	border: 1px solid #000000;
+	background-color: #FFFFFF;
+	opacity: 1;
+}
+#page-2 #main .comment p.head {
+	font-size: 1.2rem;
+	padding-top: 2rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+	text-align: center;
+}
+#page-2 #main .comment .men, #page-2 #main .comment .women {
+	margin-bottom: 1rem;
+}
+#page-2 #main .comment .avatar {
+	font-size: 0.75rem;
+	width: 100px;
+	float: left;
+	text-align: center;
+	margin-top: 1rem;
+}
+#page-2 #main .comment .avatar img {
+	width: 12px;
+}
+#page-2 #main .comment .avatar p.name {
+	font-size: 0.75rem;
+	padding: 0;
+	margin-top: 4px;
+	margin-bottom: 0;
+}
+#page-2 #main .comment .avatar p.date {
+	font-size: 0.5rem;
+	color: #8B8B8B;
+}
+#page-2 #main .text {
+	font-size: 0.75rem;
+	width: 70%;
+	float: left;
+	background: #3064A9;
+	color: #FFFFFF;
+	padding: 20px;
+	padding-bottom: 4px;
+	border-radius: 12px;
+}
+#page-2 #main .comment .women .avatar {
+	float: right;
+}
+#page-2 #main .women .text {
+	float: right;
+	background: #F15A3D;
+}
+#page-2 #main .write a {
+	font-size: 1.2rem;
+	color: #FFFFFF;
+	display: block;
+	width: 240px;
+	height: 4rem;
+	border: 2px solid #000000;
+	border-radius: 2rem;
+	padding: 1rem;
+	margin: 0 auto;
+	background-color: #000000;
+	text-align: center;
+}
+#page-2 #main .write a:hover {
+	text-decoration: none;
+	background: #FFFFFF;
+	color: #000000;
+}
+#page-2 #main .gender {
+	margin: 0 auto;
+	padding-bottom: 2rem;
+}
+#page-2 #main .write .textbox {
+	font-size: 0.75rem;
+	width: 100%;
+	color: #000000;
+	padding: 20px;
+	border-radius: 12px;
+	background-color: #FFFFFF;
+	margin-bottom: 1rem;
+}
+#page-2 #main .write .gender .custom-control-label::before {
+	background-color: #FFFFFF;
+}
+
+/*PC用*/
+
+@media (min-width: 992px) {
+.wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+#top #main h1 {
+	width: 100%;
+	max-width: 27rem;
+	margin: 0 auto;
+}
+header .leadcopy {
+	width: 240px;
+}
+#page-2 #main .wrapper p.name {
+	font-size: 2rem;
+	padding: 1rem 0;
+}
+}
+
+.select-box02{
+    width: 100%;
+}
+.select-box02 select {
+    text-align: center;
+    text-align-last: center;
+	position: relative;
+	width: 100%;
+	padding: 10px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	background: #fff;
+    color:#BBB;
+    font-size:1.2em;
+    border-radius: 0;
+}
+.select-box02 option {
+  text-align: left;
+  /* reset to left*/
+}
+.select-box02 label {
+	position: relative;
+    width: 100%;
+    line-height: 40px;
+}
+ 
+.select-box02 label:after {
+	display: block;
+	content: " ";
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	margin-top: -8px;
+	background: url(../open-iconic-master/svg/chevron-bottom.svg) 0 0 no-repeat;
+	background-size: 15px;
+	pointer-events: none;
+}
+
+@media (min-width: 992px) {
+	#upload .wrapper {
+		width: 900px;
+		margin: 20px auto;
+	}
+
+}
+
+span.red{
+	color: #f00;
+}
+.hide{
+	display: none;
+}
+button:focus {
+	outline:none;
+}
+#post-content{
+	border: 0;
+}
+#post-content:focus{
+	outline: none;
+}
+.bread-crumb a{
+	color: #000;
+}
+
+#logo {
+	float: left;
+}
+.top-right {
+	float: right;
+}
+.top-right a{
+	color: #fff;
+}
+.top-right li{
+	list-style-type: none;
+}
+.top-right li {
+	float: left;
+}
